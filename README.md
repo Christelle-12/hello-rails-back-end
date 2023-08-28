@@ -4,7 +4,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Back-End-Link](#backend-link)
+  - [🚀 Front-End-Link](#frontend-link)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -53,7 +53,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Backend Link <a name="backend-link"></a>
+## 🚀 Frontend Link <a name="frontend-link"></a>
 
 - [Front-End-Link](https://github.com/Christelle-12/hello-rails-front-end.git)
 
@@ -87,7 +87,7 @@ Install this project with:
 
 ```sh
   cd hello-rails-back-end
-  npm install
+  gem install
 ```
 
 ### Usage
@@ -122,7 +122,7 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add styles**
+- [ ] **Add more actions in user interface**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
