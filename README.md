@@ -21,7 +21,7 @@
 
 # 📖 Rails Back-End <a name="about-project"></a>
 
-**React Front-End** seamlessly retrieves and displays a variety of random greetings sourced from a Rails API, offering users a dynamic and engaging experience with each visit.
+**Rails Back-End** seamlessly retrieves and displays a variety of random greetings sourced from a Rails API, offering users a dynamic and engaging experience with each visit with the help of hello-react-front-end repository we have a user interface.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -77,7 +77,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Christelle-12/hello-rails-front-end.git
+  git clone https://github.com/Christelle-12/hello-rails-back-end.git
 ```
 
 ### Install
@@ -95,7 +95,9 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-  npm run dev
+  rails db:create
+  rails db:migrate
+  rails s
 ```
 
 ### Run tests
@@ -103,7 +105,7 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 ```sh
-  npx npx eslint "**/*.{js,jsx}"
+  Rspec spec
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
