@@ -1,4 +1,3 @@
-
 class MessagesController < ApplicationController
   def index
     random_greeting = Message.order('RANDOM()').first
